@@ -1,0 +1,37 @@
+.footer-container {
+    /* background-color: #363636; */
+    background-color: #028dcf;
+    /* border-top: 0.5em solid #d7373c; */
+    /* border-top: 0.5em solid #00a859; */
+    width: 100%;
+	box-sizing: border-box;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+#footer {
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* height: 2.5rem; */
+}
+.dpid p{
+    color: #ffffff;
+	font-size: 0.75em;
+    margin: 1.3em 0 0 0;
+}
+.dpid img{
+	float: left;
+	height: 3em;
+	margin-right: 1em;
+    margin-top: 0.5em;
+}
+.pmpg img{
+    float: right;
+	height: 4em;
+	margin-right: 1em;
+    margin-top: 0.1em;
+}
+.sf{ height: 4.5em; }

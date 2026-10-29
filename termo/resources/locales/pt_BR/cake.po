@@ -1,0 +1,442 @@
+// Authentication Tranlations
+
+msgid "Login URL `%s` did not match `%s`."
+msgstr "O URL de login "%s" não corresponde a "%s"."
+
+msgid "Environment credentials not found"
+msgstr "Credenciais de ambiente não encontradas"
+
+msgid "Login credentials not found"
+msgstr "Credenciais de login não encontradas"
+
+msgid "Cookie token is invalid."
+msgstr "O token de cookie é inválido."
+
+msgid "Cookie token does not match"
+msgstr "O token do cookie não corresponde"
+
+// Validator Tranlations
+
+msgid "The provided value must be alphanumeric"
+msgstr "O valor fornecido deve ser alfanumérico"
+
+msgid "This field cannot be left empty"
+msgstr "Este campo não pode ficar vazio"
+
+msgid "The provided value must not be alphanumeric"
+msgstr "O valor fornecido não deve ser alfanumérico"
+
+msgid "The provided value must be ASCII-alphanumeric"
+msgstr "O valor fornecido deve ser alfanumérico ASCII"
+
+msgid "The provided value must not be ASCII-alphanumeric"
+msgstr "O valor fornecido não deve ser alfanumérico ASCII"
+
+msgid "The length of the provided value must be between `{0}` and `{1}`, inclusively"
+msgstr "O comprimento do valor fornecido deve estar entre "{0}" e "{1}", inclusivamente"
+
+msgid "The provided value must be a valid credit card number of any type"
+msgstr "O valor fornecido deve ser um número de cartão de crédito válido de qualquer tipo"
+
+msgid "The provided value must be a valid credit card number of these types: `{0}`"
+msgstr "O valor fornecido deve ser um número de cartão de crédito válido desses tipos: "{0}""
+
+msgid "The provided value must be greater than `{0}`"
+msgstr "O valor fornecido deve ser maior que "{0}""
+
+msgid "The provided value must be greater than or equal to `{0}`"
+msgstr "O valor fornecido deve ser maior ou igual a "{0}""
+
+msgid "The provided value must be less than `{0}`"
+msgstr "O valor fornecido deve ser menor que "{0}""
+
+msgid "The provided value must be less than or equal to `{0}`"
+msgstr "O valor fornecido deve ser menor ou igual a "{0}""
+
+msgid "The provided value must be equal to `{0}`"
+msgstr "O valor fornecido deve ser igual a "{0}""
+
+msgid "The provided value must not be equal to `{0}`"
+msgstr "O valor fornecido não deve ser igual a "{0}""
+
+msgid "The provided value must be same as `{0}`"
+msgstr "O valor fornecido deve ser o mesmo que "{0}""
+
+msgid "The provided value must not be same as `{0}`"
+msgstr "O valor fornecido não deve ser o mesmo que "{0}""
+
+msgid "The provided value must be equal to the one of field `{0}`"
+msgstr "O valor fornecido deve ser igual ao do campo "{0}""
+
+msgid "The provided value must not be equal to the one of field `{0}`"
+msgstr "O valor fornecido não deve ser igual ao do campo "{0}""
+
+msgid "The provided value must be greater than the one of field `{0}`"
+msgstr "O valor fornecido deve ser maior que o do campo "{0}""
+
+msgid "The provided value must be greater than or equal to the one of field `{0}`"
+msgstr "O valor fornecido deve ser maior ou igual ao do campo "{0}""
+
+msgid "The provided value must be less than the one of field `{0}`"
+msgstr "O valor fornecido deve ser menor que o do campo "{0}""
+
+msgid "The provided value must be less than or equal to the one of field `{0}`"
+msgstr "O valor fornecido deve ser menor ou igual ao do campo "{0}""
+
+msgid "The provided value must be a date of one of these formats: `{0}`"
+msgstr "O valor fornecido deve ser uma data em um dos seguintes formatos: "{0}""
+
+msgid "The provided value must be a date and time of one of these formats: `{0}`"
+msgstr "O valor fornecido deve ser uma data e hora em um dos seguintes formatos: "{0}""
+
+msgid "The provided value must be a time"
+msgstr "O valor fornecido deve ser uma hora"
+
+msgid "The provided value must be a localized time, date or date and time"
+msgstr "O valor fornecido deve ser uma hora, data ou data e hora localizadas"
+
+msgid "The provided value must be a boolean"
+msgstr "O valor fornecido deve ser um booleano"
+
+msgid "The provided value must be decimal with any number of decimal places, including none"
+msgstr "O valor fornecido deve ser decimal com qualquer número de casas decimais, incluindo nenhuma"
+
+msgid "The provided value must be decimal with `{0}` decimal places"
+msgstr "O valor fornecido deve ser decimal com "{0}" casas decimais"
+
+msgid "The provided value must be an e-mail address"
+msgstr "O valor fornecido deve ser um endereço de e-mail"
+
+msgid "The provided value must be one of `{0}`"
+msgstr "O valor fornecido deve ser um dos "{0}""
+
+msgid "The provided value must be an IP address"
+msgstr "O valor fornecido deve ser um endereço IP"
+
+msgid "The provided value must be an IPv4 address"
+msgstr "O valor fornecido deve ser um endereço IPv4"
+
+msgid "The provided value must be an IPv6 address"
+msgstr "O valor fornecido deve ser um endereço IPv6"
+
+msgid "The provided value must be at least `{0}` characters long"
+msgstr "O valor fornecido deve ter pelo menos "{0}" caracteres de comprimento"
+
+msgid "The provided value must be at least `{0}` bytes long"
+msgstr "O valor fornecido deve ter pelo menos "{0}" bytes de comprimento"
+
+msgid "The provided value must be at most `{0}` characters long"
+msgstr "O valor fornecido deve ter no máximo "{0}" caracteres de comprimento"
+
+msgid "The provided value must be at most `{0}` bytes long"
+msgstr "O valor fornecido deve ter no máximo "{0}" bytes de comprimento"
+
+msgid "The provided value must be numeric"
+msgstr "O valor fornecido deve ser numérico"
+
+msgid "The provided value must be a natural number"
+msgstr "O valor fornecido deve ser um número natural"
+
+msgid "The provided value must be a non-negative integer"
+msgstr "O valor fornecido deve ser um inteiro não negativo"
+
+msgid "The provided value must be between `{0}` and `{1}`, inclusively"
+msgstr "O valor fornecido deve estar entre "{0}" e "{1}", inclusivamente"
+
+msgid "The provided value must be a URL"
+msgstr "O valor fornecido deve ser uma URL"
+
+msgid "The provided value must be a URL with protocol"
+msgstr "O valor fornecido deve ser uma URL com protocolo"
+
+msgid "The provided value must be one of: `{0}`"
+msgstr "O valor fornecido deve ser um dos: "{0}""
+
+msgid "The provided value must be a UUID"
+msgstr "O valor fornecido deve ser um UUID"
+
+msgid "The provided value must be an uploaded file"
+msgstr "O valor fornecido deve ser um arquivo enviado"
+
+msgid "The provided value must be a latitude/longitude coordinate"
+msgstr "O valor fornecido deve ser uma coordenada de latitude/longitude"
+
+msgid "The provided value must be a latitude"
+msgstr "O valor fornecido deve ser uma latitude"
+
+msgid "The provided value must be a longitude"
+msgstr "O valor fornecido deve ser uma longitude"
+
+msgid "The provided value must be ASCII bytes only"
+msgstr "O valor fornecido deve ser apenas bytes ASCII"
+
+msgid "The provided value must be UTF-8 bytes only"
+msgstr "O valor fornecido deve ser apenas bytes UTF-8"
+
+msgid "The provided value must be 3 and 4 byte UTF-8 sequences only"
+msgstr "O valor fornecido deve ser apenas sequências UTF-8 de 3 e 4 bytes"
+
+msgid "The provided value must be an integer"
+msgstr "O valor fornecido deve ser um inteiro"
+
+msgid "The provided value must be an array"
+msgstr "O valor fornecido deve ser um array"
+
+msgid "The provided value must be scalar"
+msgstr "O valor fornecido deve ser escalar"
+
+msgid "The provided value must be a hex color"
+msgstr "O valor fornecido deve ser uma cor hexadecimal"
+
+msgid "The provided value must be a set of multiple options"
+msgstr "O valor fornecido deve ser um conjunto de múltiplas opções"
+
+msgid "The provided value must have at least `{0}` elements"
+msgstr "O valor fornecido deve ter pelo menos "{0}" elementos"
+
+msgid "The provided value must have at most `{0}` elements"
+msgstr "O valor fornecido deve ter no máximo "{0}" elementos"
+
+msgid "The provided value must match against the pattern `{0}`"
+msgstr "O valor fornecido deve corresponder ao padrão "{0}""
+
+msgid "This field is required"
+msgstr "Este campo é obrigatório"
+
+msgid "This field cannot be left empty"
+msgstr "Este campo não pode ficar vazio"
+
+msgid "The provided value is invalid"
+msgstr "O valor fornecido é inválido"
+
+// RulesChecker Tranlations
+
+msgid "This value is already in use"
+msgstr "Este valor já está em uso"
+
+msgid "This value does not exist"
+msgstr "Este valor não existe"
+
+msgid "Cannot modify row: a constraint for the `{0}` association fails."
+msgstr "Não é possível modificar a linha: uma restrição para a associação "{0}" falhou."
+
+msgid "The count does not match {0}{1}"
+msgstr "A contagem não corresponde a {0}{1}"
+
+// Page Errors
+msgid "Error"
+msgstr "Erro"
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid "An Internal Error Has Occurred."
+msgstr "Ocorreu Um Erro Interno."
+
+msgid "The requested address {0} was not found on this server."
+msgstr "O endereço solicitado {0} não foi encontrado neste servidor."
+
+// Server Errors
+
+// INFORMATIONAL CODES
+msgid "Continue"
+msgstr "Continuar"
+
+msgid "Switching Protocols"
+msgstr "Mudando Protocolos"
+
+msgid "Processing"
+msgstr "Processando"
+
+msgid "Early Hints"
+msgstr "Dicas Iniciais"
+
+// SUCCESS CODES
+msgid "OK"
+msgstr "OK"
+
+msgid "Created"
+msgstr "Criado"
+
+msgid "Accepted"
+msgstr "Aceito"
+
+msgid "Non-Authoritative Information"
+msgstr "Informação Não Autorizada"
+
+msgid "No Content"
+msgstr "Sem Conteúdo"
+
+msgid "Reset Content"
+msgstr "Redefinir Conteúdo"
+
+msgid "Partial Content"
+msgstr "Conteúdo Parcial"
+
+msgid "Multi-Status"
+msgstr "Múltiplos Status"
+
+msgid "Already Reported"
+msgstr "Já Reportado"
+
+msgid "IM Used"
+msgstr "IM Utilizado"
+
+// REDIRECTION CODES
+msgid "Multiple Choices"
+msgstr "Múltiplas Escolhas"
+
+msgid "Moved Permanently"
+msgstr "Movido Permanentemente"
+
+msgid "Found"
+msgstr "Encontrado"
+
+msgid "See Other"
+msgstr "Ver Outro"
+
+msgid "Not Modified"
+msgstr "Não Modificado"
+
+msgid "Use Proxy"
+msgstr "Usar Proxy"
+
+msgid "Switch Proxy"
+msgstr "Trocar Proxy"
+
+msgid "Temporary Redirect"
+msgstr "Redirecionamento Temporário"
+
+msgid "Permanent Redirect"
+msgstr "Redirecionamento Permanente"
+
+// CLIENT ERROR
+msgid "Bad Request"
+msgstr "Requisição Inválida"
+
+msgid "Unauthorized"
+msgstr "Não Autorizado"
+
+msgid "Payment Required"
+msgstr "Pagamento Necessário"
+
+msgid "Forbidden"
+msgstr "Proibido"
+
+msgid "Not Found"
+msgstr "Não Encontrado"
+
+msgid "Method Not Allowed"
+msgstr "Método Não Permitido"
+
+msgid "Not Acceptable"
+msgstr "Não Aceitável"
+
+msgid "Proxy Authentication Required"
+msgstr "Autenticação no Proxy Necessária"
+
+msgid "Request Timeout"
+msgstr "Tempo de Requisição Esgotado"
+
+msgid "Conflict"
+msgstr "Conflito"
+
+msgid "Gone"
+msgstr "Indisponível"
+
+msgid "Length Required"
+msgstr "Comprimento Necessário"
+
+msgid "Precondition Failed"
+msgstr "Pré-Condição Falhou"
+
+msgid "Content Too Large"
+msgstr "Conteúdo Muito Grande"
+
+msgid "URI Too Long"
+msgstr "URI Muito Longa"
+
+msgid "Unsupported Media Type"
+msgstr "Tipo de Mídia Não Suportado"
+
+msgid "Range Not Satisfiable"
+msgstr "Intervalo Não Satisfatório"
+
+msgid "Expectation Failed"
+msgstr "Expectativa Falhou"
+
+msgid "I'm a teapot"
+msgstr "Sou um bule"
+
+msgid "Misdirected Request"
+msgstr "Requisição Mal Direcionada"
+
+msgid "Unprocessable Content"
+msgstr "Conteúdo Não Processável"
+
+msgid "Locked"
+msgstr "Bloqueado"
+
+msgid "Failed Dependency"
+msgstr "Dependência Falhou"
+
+msgid "Too Early"
+msgstr "Muito Cedo"
+
+msgid "Upgrade Required"
+msgstr "Atualização Necessária"
+
+msgid "Precondition Required"
+msgstr "Pré-Condição Necessária"
+
+msgid "Too Many Requests"
+msgstr "Muitas Requisições"
+
+msgid "Request Header Fields Too Large"
+msgstr "Campos do Cabeçalho Muito Grandes"
+
+msgid "Connection Closed Without Response"
+msgstr "Conexão Encerrada Sem Resposta"
+
+msgid "Unavailable For Legal Reasons"
+msgstr "Indisponível por Razões Legais"
+
+// SERVER ERROR
+msgid "Client Closed Request"
+msgstr "Requisição Encerrada pelo Cliente"
+
+msgid "Internal Server Error"
+msgstr "Erro Interno do Servidor"
+
+msgid "Not Implemented"
+msgstr "Não Implementado"
+
+msgid "Bad Gateway"
+msgstr "Gateway Inválido"
+
+msgid "Service Unavailable"
+msgstr "Serviço Indisponível"
+
+msgid "Gateway Timeout"
+msgstr "Tempo de Resposta do Gateway Esgotado"
+
+msgid "HTTP Version Not Supported"
+msgstr "Versão HTTP Não Suportada"
+
+msgid "Variant Also Negotiates"
+msgstr "Variação Também Negocia"
+
+msgid "Insufficient Storage"
+msgstr "Armazenamento Insuficiente"
+
+msgid "Loop Detected"
+msgstr "Loop Detectado"
+
+msgid "Not Extended (OBSOLETED)"
+msgstr "Não Estendido (OBSOLETO)"
+
+msgid "Network Authentication Required"
+msgstr "Autenticação de Rede Necessária"
+
+msgid "Network Connect Timeout Error"
+msgstr "Erro de Tempo de Conexão de Rede"

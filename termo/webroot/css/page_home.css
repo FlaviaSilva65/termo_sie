@@ -1,0 +1,103 @@
+:root,
+[data-bs-theme="light"] {
+    --bs-cinzaM: #3c3c3c;
+    --bs-bg-opacity: 0.75;
+    --bs-cinzaC: #525252;
+}
+
+.bg-cinzaM {
+    background-color: var(--bs-cinzaM);
+}
+
+.bg-cinzaC {
+    background-color: var(--bs-cinzaC);
+}
+
+.avisos_banners {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.bannerprincipal {
+    background-image: url("../img/logo_bolsa1.png");
+    background-repeat: repeat-x;
+    /* position: absolute; */
+    background-size: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bannerprincipal h1 {
+    font-weight: bold;
+    /* display: flex; */
+    align-items: center;
+    /* vertical-align: top !important; */
+    /* position:relative; */
+}
+
+.boxlogin {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.faixa {
+    background-color: #028dcf;
+    /* border: 10px solid #028dcf; */
+    padding: 20px;
+    height: 50px;
+    border-bottom:10px #00c926;
+    
+}
+
+.hr_home {
+    /* background-color: var(--bg-vermelho); */
+    background-color: #028dcf;
+    /* border-top: 0.5em solid #028dcf; */
+    border-bottom: 2.5em solid #028dcf;
+    
+    /* border-top: 0.5em var(--bg-vermelho); */
+}
+
+.col_color {
+    /* background-color: #363636 !important; */
+    background-color: #028dcf !important;
+    color: #fff !important;
+}
+
+.accordion {
+    --bs-accordion-active-color: #fff !important;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e") !important;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem #faf9f944 !important;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.top-20 {
+    top: 20%;
+}
+
+@media screen and (max-width: 441px) {
+    .bannerprincipal {
+        background-size: 50%;
+        /* color: red; */
+        margin-bottom: 0%;
+        /* height: 60px; */
+        /* align-items: center; */
+        /* text-align: center; */
+        /* padding-top: 10px; */
+        padding-bottom: 10px !important; 
+    }
+
+    .accordion-body p {
+        font-size: 0.875em !important;
+    }
+}

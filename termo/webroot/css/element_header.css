@@ -1,0 +1,20 @@
+/* ------------------ Mostra Password ----------------- */
+.mostra_pass_eye { position: relative; }
+.mostra_pass {
+   color: #7e7e7e;
+   cursor: pointer;
+   position: absolute; right: 0.5em; top: 2.5em;
+}
+input[type="password"], input[type="text"], select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ffffff !important;
+    border: 1px solid #d1d1d1;
+    border-radius: .3rem;
+    box-shadow: none;
+    box-sizing: inherit;
+    cursor: text;
+    height: 2rem;
+    padding: 0rem 0.5rem;
+    width: 100%;
+}

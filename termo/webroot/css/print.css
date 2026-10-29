@@ -1,0 +1,82 @@
+@page {
+    /* size: 8.5in 9in; */
+    margin: 2cm;
+  }
+
+  @media print {
+    body {
+        background-color: white;
+    }
+
+    body * {
+        visibility: hidden !important;
+    }
+
+    body .print {
+        visibility: visible !important;
+        /* page-break-inside: avoid; */
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    body .print * {
+        visibility: visible !important;
+    }
+
+    body .print .page-break {
+        page-break-before: always;
+        break-after: always;
+    }
+
+    .no-print {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    #divDeclaracao {
+        text-align: center;
+    }
+
+    /* Tables */
+    table {
+        background: #fff;
+        border: 1px solid #ccc;
+        clear: both;
+        color: #333;
+        /* margin-bottom: 10px; */
+        width: 100%;
+    }
+
+    th {
+        background: #f2f2f2;
+        height: 25px;
+        text-align: center;
+    }
+
+    td {
+        /* border-bottom: 1px dotted; */
+        text-transform: uppercase;
+        text-align: center;
+        /* width: auto; */
+    }
+
+    .caption-top caption {
+        display: table-caption-group;
+    }
+
+    tr {
+        width: 1226px;
+    }
+
+    .caption-top caption {
+        caption-side: top;
+    }
+
+    #cabecalho {
+        display: block !important;
+    }
+}

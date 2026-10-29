@@ -1,0 +1,16 @@
+#cabecalho img {
+    max-width: 100%;
+}
+
+.header {
+    background-color: #eeeeee;
+    font-weight: bold;
+    font-size: 20px;
+    width: 98%;
+    text-align: center;
+}
+
+.body {
+    width: 96%;
+    text-align: center;
+}

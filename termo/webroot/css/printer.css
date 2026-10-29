@@ -1,0 +1,134 @@
+:root {
+    --p-margin: 15mm;
+    --p-margin-top: 15mm;
+    --p-margin-end: 15mm;
+    --p-margin-bottom: 15mm;
+    --p-margin-start: 15mm;
+    --p-size-h: 11.67in;
+    --p-size-w: 8.27in;
+    --p-size: var(--p-size-w) var(--p-size-h);
+}
+
+body {
+    background-color: gray;
+}
+
+.page-container {
+    width: var(--p-size-w);
+    margin: 2rem auto;
+}
+
+.page-content {
+    position: relative;
+    min-height: var(--p-size-h);
+    background-color: white;
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.print {
+    padding: var(--p-margin);
+    display: table;
+}
+
+.footer {
+    display: table-footer-group;
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+    margin-bottom: var(--p-margin-bottom);
+    width: 100%;
+    background-color: white;
+}
+
+.header {
+    display: table-header-group;
+}
+
+span {
+    padding: 0 1rem;
+    justify-content: center;
+}
+
+.watermark {
+    position: fixed;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: rotate(-45deg);
+    font-size: 120px;
+    font-weight: bold;
+    color: #d0d0d0;
+    opacity: 0.40;
+}
+
+@media print {
+    @page {
+        size: A4 auto;
+        margin: 15mm;
+    }
+
+    body {
+        background-color: white;
+        visibility: hidden;
+    }
+
+    .break-after {
+        break-after: always
+    }
+
+    .break-before {
+        break-before: always;
+    }
+
+    .footer {
+        position: fixed;
+        margin-bottom: 0rem;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+
+    .page-break-after {
+        page-break-after: always
+    }
+
+    .page-break-before {
+        page-break-before: always;
+    }
+
+    .page-break-auto {
+        page-break-before: auto;
+    }
+
+    .page-container {
+        width: auto;
+        margin: 0rem;
+    }
+
+    .page-content {
+        min-height: auto;
+    }
+
+    .print {
+        position: absolute;
+        left: 0rem;
+        top: 0rem;
+        padding: 0rem;
+        page-break-after: avoid;
+    }
+
+    .print * {
+        visibility: visible;
+    }
+
+    .persistent {
+        display: initial !important;
+    }
+
+}
+
+.input.radio label {
+    margin-right: 10px;
+}

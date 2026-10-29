@@ -1,0 +1,27 @@
+/* SEDUC DPID - Manuel Afonso 47061 em 10/08/2026 */
+.st-wrapper{ position:relative; width:100%; }
+.st-wrapper textarea{
+    width:100%;
+    resize:none;
+    overflow:hidden;
+    box-sizing:border-box;
+    transition: height 0.2s ease;
+}
+.st-wrapper textarea.smart-textarea{ min-height:24px; padding: 0.3rem 0.4rem 0.1rem 0.4rem; }
+.st-toggle{
+    position:absolute;
+    top:13px;
+    right:8px;
+    width:24px;
+    height:24px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:0;
+    background:transparent;
+    cursor:pointer;
+    color:#6c757d;
+    z-index:5;
+}
+.st-toggle:hover{ color:black; }
+.st-preview{ display:none; }
